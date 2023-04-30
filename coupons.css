@@ -1,0 +1,75 @@
+#main{
+    background-color: burlywood;
+    height: 800px;
+    z-index:1;
+
+}
+#coupon{
+    height: 300px;
+    width: 600px;
+    background-color: pink;
+    z-index: 10;
+    position: absolute;
+    margin-top: -47%;
+    margin-left: 31%;
+    visibility: hidden;
+    opacity:1;
+    border: 2px black solid;
+}
+
+#images{
+    animation: mixed 5s;
+}
+
+@keyframes mixed{
+    0%{
+        margin-left: 3%;
+        font-size: 13px;
+    }
+    12.5%{
+        rotate: 45deg;
+        margin-left: 6%;
+        font-size: 17px;
+    }
+    25%{
+        rotate: 90deg;
+        margin-left: 9%;
+        font-size: 21px;
+    }
+    37.5%{
+        rotate: 135deg;
+        margin-left: 12%;
+        font-size: 21px;
+    }
+    50%{
+        rotate: 180deg;
+        margin-left: 15%;
+        font-size: 21px;
+    }
+    62.5%{
+        rotate: 225deg;
+        margin-left: 12%;
+        font-size: 21px;
+    }
+    75%{
+        rotate: 270deg;
+        margin-left: 9%;
+        font-size: 21px;
+    }
+    87.5%{
+        rotate: 315deg;
+        margin-left: 6%;
+        font-size: 17px;
+    }
+    100%{
+        rotate: 360deg;
+        margin-left: 3%;
+        font-size: 20px;
+    }
+}
+
+.button1{
+    color: black;
+    background-color: red;
+}
+
